@@ -1,4 +1,4 @@
-# vue3-ts-TEMPLATE
+# shared-product-h5-template
 
 ## 安装依赖
 

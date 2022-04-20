@@ -3,9 +3,13 @@ const { defineConfig } = require('@vue/cli-service');
 const vueConfigs = {
   transpileDependencies: true,
   devServer: {
-    overlay: {
-      warnings: true,
-      errors: true,
+    liveReload: false,
+    client: {
+      progress: true,
+      overlay: {
+        errors: true,
+        warnings: false,
+      },
     },
   },
 };
